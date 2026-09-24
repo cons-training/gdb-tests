@@ -18,11 +18,13 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\gdb\GDB.App.csproj" />
+    <ProjectReference Include="..\GDB.App\GDB.App.csproj" />
   </ItemGroup>
 
   <ItemGroup>
-    <None Include="..\..\GDB_Unit_Test_Cases.xlsx" Link="TestData\GDB_Unit_Test_Cases.xlsx" CopyToOutputDirectory="PreserveNewest" />
+    <None Include=".\GDB_Unit_Test_Cases.xlsx"
+          Link="TestData\GDB_Unit_Test_Cases.xlsx"
+          CopyToOutputDirectory="PreserveNewest" />
   </ItemGroup>
 
 </Project>
